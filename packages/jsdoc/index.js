@@ -39,3 +39,15 @@ var addTwo = function(num) {
      this.author = author;
    }
  }
+
+/**
+* Represent the return word function
+* @deprecated since version 2.0
+* @function returnWord
+* @param {string} word - The word it has to return.
+* @returns {string}
+*/
+
+var returnWord = function(word) {
+  return word;
+}

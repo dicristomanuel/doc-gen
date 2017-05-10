@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "jsdoc": "jsdoc . && open ./out/index.html",
-    "jsdoc2markdown": "jsdoc2md ./index.js >> README.md",
+    "gen-doc": "jsdoc . && open ./out/index.html",
+    "gen-doc-style": "jsdoc . -t ./node_modules/ink-docstrap/template -c ./jsdoc-config.json && open ./out/index.html",
+    "gen-doc-md": "jsdoc2md ./index.js >> README.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ink-docstrap": "^1.3.0",
     "jsdoc": "^3.4.3",
     "jsdoc-to-markdown": "^3.0.0"
   }

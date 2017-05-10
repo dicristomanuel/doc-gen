@@ -1,0 +1,46 @@
+{
+    "project": {},
+    "files": {
+        "index.js": {
+            "name": "index.js",
+            "modules": {
+                "Main": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "Main": {
+            "name": "Main",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "index.js",
+            "line": 1,
+            "description": "Provides the base Main class..."
+        }
+    },
+    "classes": {},
+    "elements": {},
+    "classitems": [
+        {
+            "file": "index.js",
+            "line": 7,
+            "description": "Returns this model's attributes as...",
+            "itemtype": "method",
+            "name": "toJSON",
+            "return": {
+                "description": "Copy of ...",
+                "type": "Object"
+            },
+            "class": "",
+            "module": "Main"
+        }
+    ],
+    "warnings": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "YUIDoc-example",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen-doc": "yuidoc . && open ./out/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "yuidocjs": "^0.10.2"
+  }
+}
