@@ -1,0 +1,17 @@
+{
+  "name": "jsdoc-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jsdoc": "jsdoc ./index.js && open ./out/index.html",
+    "jsdoc2markdown": "jsdoc2md ./index.js >> README.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^3.4.3",
+    "jsdoc-to-markdown": "^3.0.0"
+  }
+}
